@@ -8,7 +8,7 @@ public: \
 	void* operator new(size_t size) {return myAlloc.allocate(size);}	\
 	void operator delete(void *p){ myAlloc.deallocate(p,0);}	 \
 protected: \
-	static allocator_pro myAlloc;
+	static allocator_pro<false> myAlloc;
 
 template<bool threads>
 class allocator_pro:public allocator{
