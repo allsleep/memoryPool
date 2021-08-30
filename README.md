@@ -1,3 +1,3 @@
 # memoryPool
-
-Adding macros before a class is defined will deplete the memory pool, reducing the amount of waste generated during memory allocation
+* this is a limited pool
+* Adding macros before a class of pool memory is defined , reducing the amount of waste generated during memory allocation
